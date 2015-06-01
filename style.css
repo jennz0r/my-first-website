@@ -1,0 +1,107 @@
+	<style type="text/css">
+	
+/*These are the general selectors for the entire pages!*/	
+		
+		body {
+			background-image: url(images/tardis.jpg);
+			background-repeat: no-repeat;
+			background-position: right bottom;
+			color: #241907;
+			font-family: georgia, "times new roman", serif;
+			margin: 25px;
+		}
+		
+		li {
+			list-style-type: circle;
+			}
+		
+		a:link {color:#B9903E;} 
+		a:visited {color:#D91818;}
+		a:hover {color:#A6987E;}
+		a:active {color:#A6987E;} 
+		
+		a:link {text-decoration:none;}
+		a:visited {text-decoration:none;}
+		a:hover {text-decoration:underline;}
+		a:active {text-decoration:underline;}
+		
+		iframe {
+			margin: 20px;	
+			}
+		
+		
+/* These are the Divs! */
+		
+		#wrapper {
+			width: 900px;
+			padding: 10px;
+			margin: 30px auto;
+			}
+			
+	/* This is the title bar */
+		
+		#title {
+			background-image: url(images/bear.jpg);
+			background-position: 50% 98%;
+			border-radius: 10px;
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
+			font-family:"helevetica neue", helvetica, arial, sans-serif;
+			color: #241907;
+			padding: 10px 10px 10px 15px;
+			margin: 15px auto;
+			}
+	
+	/* This is the navigation bar */
+			
+		#nav {
+			background-color: #6F3A10;
+			border-radius: 10px;
+			-moz-border-radius: 10px;
+			-webkit-border-radius: 10px;
+			font-family:"helevetica neue", helvetica, arial, sans-serif;
+			color: #241907;
+			height: 20px;
+			margin: 0 0 25px 0;	
+			padding: 10px;
+			}
+			
+		#nav ul {
+			padding: 0;
+			margin: 0;
+			}
+		
+		#nav li {
+			list-style-type: none;
+			float: left;
+			margin: 0 0 0 15px;
+			font-size: 18px;
+			font-weight: 300;
+			}
+			
+			
+			
+	/* This is the body area below the navigation bar with all the information */
+			
+		#info {
+			width: 750px;
+			padding: 10px 20px 10px 20px;
+			margin: 20px 10px 10px 0px;
+			border-top-style: dotted;
+			border-left-style: dotted;
+			border-color: #A6987E;
+			border-width: 1px;
+			}
+				
+			
+			
+/* These are the Classes */			
+			
+		h1.title {
+			font-family: georgia, "times new roman", serif;
+			text-transform:uppercase;
+			letter-spacing: 1px;
+			}
+		
+		
+		</style>
